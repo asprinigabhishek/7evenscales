@@ -90,6 +90,9 @@
     background: url("imgs/bg1\ \(2\).jpg") no-repeat bottom/cover;
     height: 20vh;
     width: 100vw;
+    position: absolute; 
+    z-index: -1;
+    top: 96vh;
   }
   #home img{
     width: 25vw;
