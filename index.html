@@ -17,24 +17,31 @@
 
 <body>
     <nav id="navbar">
-        <h1 class="h-primary">7even Scales</h1>
+        <div class="center">
+        <img src="imgs/7EVEN SCALES.png" alt="logo">
+        <!-- <h1 class="h-primary">7even Scales</h1> -->
         <p>Hai 7 suro ka sangam </p>
+        </div>
     </nav>
 
     <section id="home">
+        <div class="center">
         <h2>Who's your favourite ?</h2>
         <form action="https://docs.google.com/forms/d/e/1FAIpQLScE0qokaFbDBe2tKjQW3vANLjXY1hAjQ7A26aYLSX-7dmjOYA/formResponse"
       target="_self"
       id="bootstrapForm"
       method="POST">
     <fieldset>
+        <div class="center">
         <div class="flex">
         <legend for=""><p class="p2">Email : </p></legend>
         <div class="form-group box">
             <input id="emailAddress" type="email" name="emailAddress" class="form-control" style="height: 20px;width: 50vw;" required>
         </div>
     </div>
+</div>
     </fieldset>
+</div>
 
 
     <!-- Field type: "choices" id: "2004497639" -->
@@ -45,21 +52,21 @@
                 <label>
                     <input type="radio" name="entry.2043570803" value="Aaradhya" required>
                     <img src="imgs/singer1.png" alt="Aaradhya">
-                    <p class="p2">Aaradhya </p>
+                    <p class="p2 center">Aaradhya </p>
                 </label>
             </div>
             <div class="radio">
                 <label>
                     <input type="radio" name="entry.2043570803" value="Kuljit S." required>
                     <img src="imgs/singer2.jpg" alt="Kuljit S.">
-                    <p class="p2">Kuljit S.</p>
+                    <p class="p2 center">Kuljit S.</p>
                 </label>
             </div>
             <div class="radio">
                 <label>
                     <input type="radio" name="entry.2043570803" value="sDevagya J." required>
                     <img src="imgs/singer3.jpeg" alt="Devagya J.">
-                    <p class="p2">Devagya J.</p>
+                    <p class="p2 center">Devagya J.</p>
                 </label>
             </div>
             </div>
@@ -68,21 +75,21 @@
                 <label>
                     <input type="radio" name="entry.2043570803" value="Jatin" required>
                     <img src="imgs/singer4.jpeg" alt="Jatin">
-                    <p class="p2">Jatin</p>
+                    <p class="p2 center">Jatin</p>
                 </label>
             </div>
             <div class="radio">
                 <label>
                     <input type="radio" name="entry.2043570803" value="Amanjot K." required>
                     <img src="imgs/singer5.jpg" alt="Amanjot K.">
-                    <p class="p2">Amanjot K.</p>
+                    <p class="p2 center">Amanjot K.</p>
                 </label>
             </div>
             <div class="radio">
                 <label>
                     <input type="radio" name="entry.2043570803" value="Lakshay S." required>
                     <img src="imgs/singer6.jpg" alt="Lakshay S.">
-                    <p class="p2">Lakshay S.</p>
+                    <p class="p2 center">Lakshay S.</p>
                 </label>
             </div>
             </div>
@@ -91,21 +98,21 @@
                     <label>
                         <input type="radio" name="entry.2043570803" value="Patriot K" required>
                         <img src="imgs/singer7.jpg" alt="Patriot K">
-                        <p class="p2">Patriot K.</p>
+                        <p class="p2 center">Patriot K.</p>
                     </label>
                 </div>
                 <div class="radio">
                     <label>
                         <input type="radio" name="entry.2043570803" value="Kalpna K." required>
                         <img src="imgs/singer8.jpg" alt="Kalpna K.">
-                        <p class="p2">Kalpna K.</p>
+                        <p class="p2 center">Kalpna K.</p>
                     </label>
                 </div>
                 <div class="radio">
                     <label>
                         <input type="radio" name="entry.2043570803" value="Preeti K." required>
                         <img src="imgs/singer9.jpg" alt="Preeti K.">
-                        <p class="p2">Preeti K.</p>
+                        <p class="p2 center">Preeti K.</p>
                     </label>
                 </div>
                 </div>
@@ -114,21 +121,21 @@
                         <label>
                             <input type="radio" name="entry.2043570803" value="Kaahish" required>
                             <img src="imgs/singer10.jpg" alt="Kaahish">
-                            <p class="p2">Kaahish</p>
+                            <p class="p2 center">Kaahish</p>
                         </label>
                     </div>
                     <div class="radio">
                         <label>
                             <input type="radio" name="entry.2043570803" value="Shane V." required>
                             <img src="imgs/singer11.jpg" alt="Shane V.">
-                            <p class="p2">Shane V.</p>
+                            <p class="p2 center">Shane V.</p>
                         </label>
                     </div>
                     <div class="radio">
                         <label>
                             <input type="radio" name="entry.2043570803" value="Josh Ab." required>
                             <img src="imgs/singer12.jpg" alt="Josh Ab.">
-                            <p class="p2">Josh Ab.</p>
+                            <p class="p2 center">Josh Ab.</p>
                         </label>
                     </div>
                     </div>
@@ -139,7 +146,7 @@
     <input type="hidden" name="fvv" value="1">
     <input type="hidden" name="fbzx" value="2672709035545055728">
     <input type="hidden" name="pageHistory" value="0">
-    <input class="btn btn-primary" type="submit" value="Submit">
+    <input class="btn btn-primary center" type="submit" value="Submit">
 </form>
 </section>
     <div class="extra">
@@ -158,7 +165,6 @@ $('#bootstrapForm').submit(function (event) {
         data: extraData,
         dataType: 'jsonp',
         error: function () {
-
             // You can also redirect the user to a custom thank-you page:
             window.location = 'thanks-page.html'
         }
