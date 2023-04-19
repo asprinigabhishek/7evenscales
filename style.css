@@ -12,10 +12,10 @@
   }
   fieldset .flex{
     display: flex;
+    margin-left: 11vw;
   }
   /* navbar */
   #navbar {
-    align-items: center;
     position: absolute;
     font-family: "Bree Serif", serif;
     width: 100%;
@@ -24,8 +24,13 @@
   #navbar h1{
     color: white;
     font-family: "Bree Serif", serif;
-    margin-left: 4vw;
+    /* margin-left: 4vw; */
     margin-top: 3vh;
+  }
+  #navbar img{
+    /* margin-left: 4vw; */
+    margin-top: 3vh;
+    height: 40px;
   }
   #navbar p {
     color: white;
@@ -68,7 +73,7 @@
     opacity: 0.7;
   } 
   #home .box{
-    margin-left: 4vw;
+    /* margin-left: 4vw; */
   
   }
   #home {
@@ -92,7 +97,7 @@
     width: 100vw;
     position: absolute; 
     z-index: -1;
-    top: 93vh;
+    top: 96vh;
   }
   #home img{
     width: 25vw;
@@ -128,7 +133,7 @@
     border: none;
     position: relative;
     top: 110px;
-    margin: 17px;
+    margin: 17px 23.5vw;
     cursor: pointer;
     color: transparent;
   }
